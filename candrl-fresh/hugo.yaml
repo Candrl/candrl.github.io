@@ -39,107 +39,23 @@ params:
     # Main hero title
     title: Candrl
     # Hero subtitle (optional)
-    subtitle: For business, for life.  Your friends in Tech.
+    subtitle: For Business, For Life. Your friends in Tech.
     # Button text
-    buttontext: Get started
+    buttontext: Why Go to the Cloud?
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "https://cloud.google.com/learn/advantages-of-cloud-computing"
     # Hero image (from static/images/___)
     #image: illustrations/worker.svg
     image: logos/CandrlLarge.svg
     # Footer logos (from static/images/logos/clients/*.svg)
     # urls are optional
     clientlogos:
-    - logo: github-mark
-      url: https://github.com/candrl
     - logo: Cloudflare
       url: https://cloudflare.com
     - logo: Microsoft
       url: https://microsoft.com
     - logo: Google_Cloud
       url: https://cloud.google.com
-    - logo: raspberry-pi
-      url: https://raspberrypi.com
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
-  navbar:
-  - title: Services
-    url: /
-  - title: Projects
-    sublinks:
-    - title: Website Design
-      url: /
-    - title: DevOps & Server Management
-      url: /
-    - title: System Design
-      url: /
-    - title: Custom Development
-      url: /      
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
-    button: true
-  section1:
-    title: Your full service technology company
-    subtitle: Building your dream solutions
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud Integration
-      icon: laptop-cloud
-      text: Move or create
-      url: /
-      buttonText: Get started
-    - title: Custom Development
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
-  section5:
-    title: Drop us a line or two
-    subtitle: We'd love to hear from you
-    buttonText: Send Message
-    # action: https://formspree.io/f/<form_id>
-    # method: POST
   footer:
     # Logo (from /images/logos/___)
     logo: CandrlLarge.svg
@@ -155,16 +71,10 @@ params:
       column1:
         title: "Why Us?"
         links:
-        - text: Discover features
+        - text: Services We Offer
           link: /
-        - text: Why choose our product?
+        - text: About Us
           link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
       column2:
         title: "Products // Services"
         links:
@@ -178,10 +88,3 @@ params:
           link: /
         - text: Custom Solutions
           link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
