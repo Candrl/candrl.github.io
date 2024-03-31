@@ -74,7 +74,7 @@ params:
         - text: Services We Offer
           link: /
         - text: About Us
-          link: /
+          link: /AboutUs
       column2:
         title: "Products // Services"
         links:
